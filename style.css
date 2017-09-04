@@ -1,0 +1,120 @@
+body {
+    background-color: #d1d1d1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_container {
+    background-color: white;;
+    margin: 50px;
+    
+}
+.header {
+    background-image: url(images/header_bg.gif);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+
+.info {    
+    width:80%;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 100px;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+.container_2 {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.ginekologist {
+    width: 46%;    
+    float: left;
+}
+
+.teeth_clean {    
+    width: 46%;    
+    float: right;
+}
+
+img {
+    width: 100%;
+}
+
+.button_request {
+    color: white;
+    background: #cf5b4e;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.container3 {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.cardiologist {
+    float: left;
+    display: inline-block;
+    width:30%;
+}
+
+.ultrasonography {
+    float: right;
+    display: inline-block;
+    width: 30%;
+}
+
+.nevrologist {
+    display: inline-block;
+    margin: 0 auto;   
+    box-sizing: border-box;
+    width: 30%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.container4 {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.container4 input {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.footer a {
+    color:white;
+}
