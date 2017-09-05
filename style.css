@@ -3,16 +3,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .main_container {
-    background-color: white;;
-    margin: 50px;
+    background-color: #fff;
+    margin: auto;
+    width:960 px;
     
 }
 .header {
     background-image: url(images/header_bg.gif);
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
+    background-repeat: no-repeat; /*Устанавливает одно фоновое изображение в элементе без его повторений, положение которого определяется свойством background-position (по умолчанию в левом верхнем углу)*/
+    background-position: center top; /*top = top center = center top = 50% 0% (по центру вверху)*/
+    background-size: contain; /*Масштабирует изображение с сохранением пропорций таким образом, чтобы картинка целиком поместилась внутрь блока.*/
+    height: 300px;
+    }
 
 
 .info {    
@@ -28,26 +30,37 @@ h3 {
     text-align: center;
 }
 
-.container_2 {
+.container2, .container3, .container4 {
     width: 80%;
+    height: 500px;
     margin: 0 auto;
     font-size: 25px;
     line-height: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    overflow: hidden;
+    
+}
+.container3 {
+    text-align: center;     
+}
+
+.container2 div {
+    width: 46%; 
+    height:450px;   
 }
 
 .ginekologist {
-    width: 46%;    
     float: left;
+    
 }
-
 .teeth_clean {    
-    width: 46%;    
     float: right;
 }
 
 img {
     width: 100%;
+    max-height: 300px;
 }
 
 .button_request {
@@ -59,49 +72,26 @@ img {
     border-style: none;
     font-size: 20px;
     font-weight: bold;
-    
 }
 
-.container3 {
-    width: 80%;
-    margin: 0 auto;
-    font-size: 25px;
-    line-height: 30px;
-    text-align: center;
+.container3 div {
+    display: inline-block;
+    width: 30%;
+    height: 450px;
 }
 
 .cardiologist {
     float: left;
-    display: inline-block;
-    width:30%;
 }
 
 .ultrasonography {
     float: right;
-    display: inline-block;
-    width: 30%;
-}
-
-.nevrologist {
-    display: inline-block;
-    margin: 0 auto;   
-    box-sizing: border-box;
-    width: 30%;
 }
 
 .clearfix::after {
     content: "";
     clear: both;
     display: block;
-}
-
-.container4 {
-    width: 80%;
-    margin: 0 auto;
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 50px;
-    margin-top: 50px;
 }
 
 .container4 input {
